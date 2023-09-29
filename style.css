@@ -11,10 +11,16 @@
     z-index: 2;
 }
 .b{
+    background-color: #150e28;
     display: flex;
     padding: 2rem 8rem 1rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    bottom: 709%;
     justify-content: space-between;
     align-items: center;
+    z-index: 3;
 }
 #nav-icon{
     display: none;
@@ -898,6 +904,7 @@ nav ul li a span{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
     border-radius: 10px;
     padding: 3rem;
+    z-index: 1;
 }
 .reg-col h5{
     font-family: 'Montserrat', sans-serif;
@@ -1066,6 +1073,7 @@ h6{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
     border-radius: 10px;
     padding: 4rem;
+    z-index: 1;
 }
 .con-col{
     flex-basis: 60%;
