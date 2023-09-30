@@ -13,16 +13,16 @@
 .b{
     background-color: #150e28;
     display: flex;
-    padding: 2rem 8rem 1rem;
+    padding: 2rem 8.3rem 1rem;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    bottom: 709%;
     justify-content: space-between;
     align-items: center;
     z-index: 3;
+    overflow: hidden;
 }
-#nav-icon{
+.b svg{
     display: none;
 }
 .b h2{
@@ -154,6 +154,7 @@ h3{
 .ig1{
     top: 0%;
     opacity: 0.7;
+    background-blend-mode: darken;
 }
 .ig2{
     width: 25rem;
@@ -180,7 +181,7 @@ h3{
     nav{
         display: none;
     }
-    #nav-icon{
+    .b svg{
         display: block;
     }
     h3{
@@ -399,10 +400,10 @@ p span{
 .grid-content1{
     display: grid;
     column-gap: 30px;
-    width: 90%;
+    width: 89%;
     margin: auto;
     padding-top: 4rem;
-    grid-template-columns: 555px 35px 555px;
+    grid-template-columns: 1fr auto 1fr;
     align-items: end;
     color: white;
 }
@@ -419,7 +420,7 @@ p span{
     margin: auto;
     column-gap: 30px;
     padding-top: 0.5rem;
-    grid-template-columns: 555px 35px 555px;
+    grid-template-columns: 1fr auto 1fr;
     align-items: end;
     color: white;
 }
@@ -428,7 +429,7 @@ p span{
 }
 .grid-content3, .grid-content5{
     display: grid;
-    grid-template-columns: 555px 35px 555px;
+    grid-template-columns: 1fr auto 1fr;
     column-gap: 30px;
     width: 90%;
     margin: auto;
@@ -555,8 +556,8 @@ span{
     .circle p{
         background-color: blueviolet;
         border-radius: 100px;
-        padding: 0.1rem;
-        width: 1.5rem;
+        padding: 0.2rem;
+        width: 1rem;
         text-align: center;
     }
     .col2{
@@ -620,11 +621,11 @@ span{
     padding: 0 0.5rem 0;
 }
 .z1{
-    top: 658%;
+    top: 656%;
     right: 37.8%;
 }
 .z3{
-    top: 658%;
+    top: 656%;
     right: 17%;
 }
 .seven-r-col{
@@ -633,7 +634,8 @@ span{
     width: 100%;
     max-width: 140px;
     min-height: 100px;
-    padding: 70px 0 0;
+    grid-row: span 2;
+    padding: 90px 0 0;
     border-radius: 10px;
 }
 .seven-r-col img{
@@ -676,16 +678,16 @@ span{
         font-size: 14px;
     }
     .z1{
-        top: 762%;
+        top: 705%;
         right: 68.5%;
     }
     .z3{
-        top: 762%;
+        top: 705%;
         right: 7.4%;
     }
     .seven-r-col{
         min-height: 70px;
-        padding: 52px 0 0 0;
+        padding: 70px 0 0 0;
     }
     .seven-r-col img{
         width: 134px;
@@ -695,7 +697,7 @@ span{
         font-size: 16px;
     }
     .z2{
-        top: 756%;
+        top: 700%;
         right: 30.5%;
     }
 }
@@ -716,10 +718,10 @@ span{
     margin: auto;
     display: flex;
     gap: 4rem;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 .nine-col{
-    flex-basis: 47%;
+    flex-basis: 60%;
 }
 .nine-col h4{
     padding-bottom: 1.5rem;
@@ -759,23 +761,23 @@ span{
     padding-bottom: 1rem;
 }
 .nine-col button{
-    margin: 5px 120px 0;
-}
-.nine-col2{
-    display: grid;
+    margin: 5px 110px 0;
 }
 .nine-col2 img{
     width: 400px;
 }
+.nine-col2{
+    height: 50rem;
+}
 .fir{
-    position: absolute;
-    right: 10%;
-    top: 742%;
+    position: relative;
+    left: 20%;
+    top: 5%;
 }
 .nine-ig{
-    position: absolute;
-    top: 772%;
-    right: 12%;
+    position: relative;
+    top: -32%;
+    left: 18%;
 }
 @media (max-width: 700px) {
     .nine{
@@ -788,22 +790,23 @@ span{
     .nine-content{
         padding: 20px;
     }
-    .nine-content p{
-        font-size: 7px;
-        line-height: 0.8rem;
+    p{
+        font-size: 10px;
+        line-height: 0.9rem;
     }
     .nine-col button{
         margin: 5px 30px 0;
     }
+    .nine-col2{
+        height: 35rem;
+    }
     .fir{
-        position: relative;
-        top: 20%;
-        right: 3%;
+        top: 0;
+        left: -2%;
     }
     .nine-ig{
-        position: relative;
-        top: -30%;
-        right: 4%;
+        top: -40%;
+        left: -3%;
     }
     .nine-col2 img{
         width: 300px;
@@ -812,10 +815,7 @@ span{
         text-align: left;
     }
     .va h5{
-        font-size: 11px;
-    }
-    .valid p{
-        line-break: auto;
+        font-size: 12px;
     }
 }
 .footer{
@@ -1144,8 +1144,13 @@ span{
     .contact-content{
         margin: auto;
         width: 80%;
-        padding: 30px 0;
+        padding: 40px 0;
         line-height: 1.1rem;
+    }
+    .contact-content #next{
+        width: 30px;
+        height: 30px;
+        padding-bottom: 30px;
     }
     h4 span{
         font-size: 16px;
@@ -1178,7 +1183,7 @@ span{
         display: grid;
         row-gap: 0.1rem;
         text-align: center;
-        padding: 2rem 0;
+        padding-block: 2rem 6rem;
     }
     .contact-footer .svg1{
         width: 32%;
