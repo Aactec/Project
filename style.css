@@ -164,6 +164,17 @@ h3{
     top: 7%;
     left: 14%;
 }
+.blink{
+    animation: blink linear infinite 1s;
+}
+@keyframes blink {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(0.7);
+    }
+}
 .ve-two{
     width: 16px;
     top: 18%;
@@ -287,7 +298,7 @@ h3{
     .ve-five{
         width: 8px;
         top: 31%;
-        right: 26%;
+        left: 70%;
     }
     .ig3{
         width: 1.2rem;
@@ -302,8 +313,8 @@ h3{
     .ig5{
         width: 310px;
         height: 305px;
-        right: 16%;
-        top: 50%;
+        right: 9%;
+        top: 49%;
     }
     .ig1{
         width: 30rem;
