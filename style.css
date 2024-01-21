@@ -616,7 +616,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         padding-top: 2rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -625,7 +625,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         padding-top: 1rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -634,7 +634,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         padding-top: 1rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -643,7 +643,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         padding-top: 1rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -652,7 +652,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         padding-top: 1rem;
         padding-bottom: 8rem;
         column-gap: 0.2rem;
@@ -1038,7 +1038,7 @@ h6{
     opacity: 0.4;
 }
 @media (max-width: 700px) {
-    h2{
+    #br h2{
         display: none;
     }
     .b h4{
@@ -1060,7 +1060,7 @@ h6{
     .reg-form{
         gap: 20px;
     }
-    .col1, .col2, .col3, .col4{
+    .col1, .reg-form .col2, .col3, .col4{
         grid-column: span 2;
     }
 }
