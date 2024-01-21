@@ -613,13 +613,10 @@ span{
         line-height: 0.8rem;
     }
     .grid-mobile1{
-        display: block;
-    }
-    .grid-mobile1{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         padding-top: 2rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -628,7 +625,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         padding-top: 1rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -637,7 +634,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         padding-top: 1rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -646,7 +643,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         padding-top: 1rem;
         column-gap: 0.2rem;
         align-items: center;
@@ -655,7 +652,7 @@ span{
         display: grid;
         margin: auto;
         width: 90%;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         padding-top: 1rem;
         padding-bottom: 8rem;
         column-gap: 0.2rem;
