@@ -8,6 +8,17 @@
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=nippo@200&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section class="modal" id="Modal">
+        <div class="successbox">
+            <div class="success">
+                <img src="./image/success.png" alt="">
+                <img src="./image/succman.png" alt="">
+            </div>
+            <h5>Congratulations you have successfully Registered!</h5>
+            <p>Yes, it was easy and you did it! check your mail box for next step</p>
+            <button onclick="closeModal()">Back</button>
+        </div>
+    </section>
     <header>
         <section class="b" id="br">
             <h4><span>Register</span></h4>
@@ -28,13 +39,11 @@
         </section>
     </header>
     <section class="reg">
-        <img class="abs vect1" src="image/sata gra.png" alt="">
-        <img class="abs vect2" src="image/star.png" alt="">
-        <!-- <img class="abs vect3" src="image/Purple-Lens-Flare-PNGc.png" alt=""> -->
-        <!-- <img class="abs vect4" src="image/Purple-Lens-Flare1.png" alt=""> -->
-        <img class="abs vect3" src="image/star pu.png" alt="">
-        <img class="abs vect4" src="image/star.png" alt="">
-        <img class="abs vect5" src="image/starR.png" alt="">
+        <img class="abs vect1 blink" src="image/sata gra.png" alt="">
+        <img class="abs vect2 blink" src="image/star.png" alt="">
+        <img class="abs vect3 blink" src="image/star pu.png" alt="">
+        <img class="abs vect4 blink" src="image/star.png" alt="">
+        <img class="abs vect5 blink" src="image/starR.png" alt="">
         <div class="reg-sec">
             <div class="reg-image"><img src="image/3d-graphic-designer-showing-thumbs-up-png 1.png" alt=""></div>
             <div class="reg-col">
@@ -42,8 +51,8 @@
                 <div class="reg-text">
                     <p>Be part of this movement!</p><span>........................</span>
                 </div>
-                <!-- <img class="abs vect" src="image/1f6b6-2640.png" alt=""> -->
-                <!-- <img class="abs vect" src="image/image_processing20200511-10310-13mnlsx.png" alt=""> -->
+                <img class="vect6" src="image/1f6b6-2640.png" alt="">
+                <img class="vect7" src="image/image_processing20200511-10310-13mnlsx.png" alt="">
                 <h5>CREATE YOUR ACCOUNT</h5>
                 <div class="reg-form">
                     <span class="col1">
@@ -79,7 +88,7 @@
                 <div class="check">
                     <input type="checkbox"><h6> I agree with the terms and conditions and privacy policy</h6>
                 </div>
-                <button type="submit">Register Now</button>
+                <button type="submit" onclick="openModal()">Register Now</button>
             </div>
         </div>
     </section>

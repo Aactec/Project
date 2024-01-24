@@ -92,6 +92,9 @@ h3{
     font-size: 32px;
     border-top: 0.001px solid #ffffff2e;
 }
+.ab{
+    position: absolute;
+}
 .c{
     padding: 2rem 0 0 0;
     display: flex;
@@ -1256,19 +1259,95 @@ h6{
     font-weight: 100;
 }
 .vect1{
-    top: 2%;
+    top: 12%;
+    left: 12%;
 }
 .vect2{
-    top: 5%;
+    top: 80%;
+    left: 16%;
 }
 .vect3{
-    top: 10%;
+    top: 70%;
+    left: 38%;
 }
 .vect4{
-    top: 12%;
+    top: 7%;
+    left: 80%;
 }
 .vect5{
-    top: 15%;
+    top: 94%;
+    left: 88%;
+}
+.vect6{
+    position: absolute;
+    top: 20%;
+    left: 62%;
+    width: 28px;
+}
+.vect7{
+    position: absolute;
+    top: 20%;
+    left: 63.4%;
+    width: 28px;
+}
+.modal{
+    background: #150e28cb;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -50%;
+    z-index: 10;
+    visibility: hidden;
+    transform: scale(0.4);
+}
+.open-modal{
+    top: 0%;
+    position: sticky;
+    visibility: visible;
+    transform: scale(1.0);
+    overflow-y: scroll;
+}
+.open-modal::-webkit-scrollbar{
+    display: none;
+}
+.successbox{
+    border: 1px solid #D434FE;
+    border-radius: 8px;
+    padding: 44px 36px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.success{
+    display: flex;
+    justify-content: center;
+}
+.success img{
+    position: relative;
+}
+.success img:nth-child(1){
+    left: 10%;
+    z-index: 1;
+}
+.success img:nth-child(2){
+    right: 10%;
+}
+.successbox h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+}
+.successbox p{
+    margin-top: 4px;
+    padding-top: 0px;
+}
+.successbox button{
+    width: 100%;
+    margin-top: 20px;
 }
 @media (max-width: 700px) {
     #br h2{
@@ -1287,6 +1366,9 @@ h6{
         border-radius: 0px;
         padding: 0rem;
     }
+    .reg-image img{
+        width: 340px;
+    }
     .reg-col h4{
         display: none;
     }
@@ -1297,19 +1379,64 @@ h6{
         grid-column: span 2;
     }
     .vect1{
-        top: 2%;
+        top: 12%;
+        left: 12%;
     }
     .vect2{
-        top: 5%;
+        top: 80%;
+        left: 4%;
     }
     .vect3{
-        top: 10%;
+        top: 68%;
+        left: 38%;
     }
     .vect4{
-        top: 12%;
+        top: 7%;
+        left: 80%;
     }
     .vect5{
-        top: 15%;
+        top: 87%;
+        left: 84%;
+    }
+    .vect6{
+        position: absolute;
+        top: 34%;
+        left: 51%;
+        width: 28px;
+    }
+    .vect7{
+        position: absolute;
+        top: 34%;
+        left: 56%;
+        width: 28px;
+    }
+    .successbox{
+        padding: 28px 20px;
+        margin: auto;
+        width: 72%;
+    }
+    .success img{
+        position: relative;
+    }
+    .success img:nth-child(1){
+        left: 16%;
+        width: 160px;
+        height: 160px;
+    }
+    .success img:nth-child(2){
+        right: 16%;
+        width: 160px;
+        height: 160px;
+    }
+    .successbox h5{
+        font-size: 16px;
+    }
+    .successbox p{
+        font-size: 12px;
+    }
+    .successbox button{
+        width: 100%;
+        margin-top: 20px;
     }
 }
 /* -------------------------------------contact page------------------------------------- */
