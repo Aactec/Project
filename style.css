@@ -6,6 +6,9 @@
 body{
     background: #150e28;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 header{
     position: sticky;
     position: -webkit-sticky;
@@ -496,6 +499,21 @@ p span{
     font-size: 18px;
     color: #D434FE;
 }
+.t1{
+    top: 2%;
+}
+.t2{
+    top: 5%;
+}
+.t3{
+    top: 10%;
+}
+.t4{
+    top: 15%;
+}
+.t5{
+    top: 20%;
+}
 @media (max-width: 700px) {
     .questions{
         gap: 6rem;
@@ -507,11 +525,26 @@ p span{
     .fifthsec .sec img{
         width: 100%;
     }
+    .t1{
+        top: 2%;
+    }
+    .t2{
+        top: 5%;
+    }
+    .t3{
+        top: 10%;
+    }
+    .t4{
+        top: 15%;
+    }
+    .t5{
+        top: 20%;
+    }
 }
 .sixth-sec{
-    background-color: #150e28;
     border-top: 0.1px solid #ffffff2e;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 .timeline{
     text-align: center;
@@ -605,6 +638,15 @@ span{
 .grid-mobile1, .grid-mobile2, .grid-mobile3, .grid-mobile4, .grid-mobile5, .grid-mobile6{
     display: none;
 }
+.i1{
+    top: 2%;
+}
+.i2{
+    top: 7%;
+}
+.i3{
+    top: 12%;
+}
 @media (max-width: 700px) {
     .grid-content1, .grid-content2, .grid-content3, .grid-content4, .grid-content5, .grid-content6{
         display: none;
@@ -684,10 +726,19 @@ span{
         width: 100%;
         gap: 0.5rem;
     }
+    .i1{
+        top: 2%;
+    }
+    .i2{
+        top: 7%;
+    }
+    .i3{
+        top: 12%;
+    }
 }
 .sevensec{
-    background-color: #150e28;
     border-top: 1px solid #ffffff2e;
+    position: relative;
 }
 .seven{
     display: flex;
@@ -716,6 +767,21 @@ span{
     padding: 0;
     line-height: 0.7rem;
 }
+.s1{
+    top: 2%;
+}
+.s2{
+    top: 5%;
+}
+.s3{
+    top: 10%;
+}
+.s4{
+    top: 15%;
+}
+.s5{
+    top: 20%;
+}
 @media (max-width: 700px) {
     .seven{
         flex-direction: column;
@@ -725,10 +791,25 @@ span{
     .seven img{
         max-width: 18rem;
     }
+    .s1{
+        top: 2%;
+    }
+    .s2{
+        top: 5%;
+    }
+    .s3{
+        top: 10%;
+    }
+    .s4{
+        top: 15%;
+    }
+    .s5{
+        top: 20%;
+    }
 }
 .eightsec{
-    background-color: #150e28;
-    border: 1px solid #ffffff2e;
+    border-top: 1px solid #ffffff2e;
+    position: relative;
 }
 .eight-content{
     width: 80%;
@@ -750,15 +831,33 @@ span{
     max-width: 45rem;
     width: 100%;
 }
+.e1{
+    top: 5%;
+}
+.e2{
+    top: 10%;
+}
+.e3{
+    top: 15%;
+}
 @media (max-width: 700px) {
     .eight-image{
         padding: 2rem;
         width: 72%;
     }
+    .e1{
+        top: 5%;
+    }
+    .e2{
+        top: 10%;
+    }
+    .e3{
+        top: 15%;
+    }
 }
 .ninesec{
-    background-color: #150e28;
-    border-block: 1px solid #ffffff2e;
+    border-top: 1px solid #ffffff2e;
+    position: relative;
 }
 .nine{
     width: 80%;
@@ -826,6 +925,27 @@ span{
     top: -32%;
     left: 18%;
 }
+.n1{
+    top: 2%;
+}
+.n2{
+    top: 5%;
+}
+.n3{
+    top: 7%;
+}
+.n4{
+    top: 10%;
+}
+.n5{
+    top: 15%;
+}
+.n6{
+    top: 17%;
+}
+.n7{
+    top: 20%;
+}
 @media (max-width: 700px) {
     .nine{
         flex-direction: column;
@@ -864,10 +984,31 @@ span{
     .va h5{
         font-size: 12px;
     }
+    .n1{
+        top: 2%;
+    }
+    .n2{
+        top: 5%;
+    }
+    .n3{
+        top: 7%;
+    }
+    .n4{
+        top: 10%;
+    }
+    .n5{
+        top: 15%;
+    }
+    .n6{
+        top: 17%;
+    }
+    .n7{
+        top: 20%;
+    }
 }
 .footer{
-    background-color: #150e28;
-    border-block: 1px solid #ffffff2e;
+    border-top: 1px solid #ffffff2e;
+    position: relative;
 }
 .footer span{
     font-family: 'Montserrat', sans-serif;
@@ -909,6 +1050,21 @@ h2{
     text-align: center;
     padding-bottom: 20px;
 }
+.f1{
+    top: 10%;
+}
+.f2{
+    top: 2%;
+}
+.f3{
+    top: 5%;
+}
+.f4{
+    top: 7%;
+}
+.f5{
+    top: 15%;
+}
 @media (max-width: 700px) {
     .footer-content{
         grid-template-columns: auto;
@@ -918,14 +1074,32 @@ h2{
         width: 16px;
         height: 16px;
     }
+    .f1{
+        top: 10%;
+    }
+    .f2{
+        top: 2%;
+    }
+    .f3{
+        top: 5%;
+    }
+    .f4{
+        top: 7%;
+    }
+    .f5{
+        top: 15%;
+    }
 }
 /* -------------------------------------------Registration----------------------------------------------- */
-nav ul li a span{
+.reg{
+    position: relative;
+}
+/* nav ul li a span{
     background-image: linear-gradient(to right,#FE34B9, #D434FE, #903AFF);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
+} */
 .b h4{
     display: none;
 }
@@ -1027,15 +1201,20 @@ h6{
     font-size: 10px;
     font-weight: 100;
 }
+.vect1{
+    top: 2%;
+}
+.vect2{
+    top: 5%;
+}
 .vect3{
-    width: 570px;
-    top: 0;
-    opacity: 0.4;
+    top: 10%;
 }
 .vect4{
-    right: 0;
-    top: 16%;
-    opacity: 0.4;
+    top: 12%;
+}
+.vect5{
+    top: 15%;
 }
 @media (max-width: 700px) {
     #br h2{
@@ -1063,8 +1242,26 @@ h6{
     .col1, .reg-form .col2, .col3, .col4{
         grid-column: span 2;
     }
+    .vect1{
+        top: 2%;
+    }
+    .vect2{
+        top: 5%;
+    }
+    .vect3{
+        top: 10%;
+    }
+    .vect4{
+        top: 12%;
+    }
+    .vect5{
+        top: 15%;
+    }
 }
 /* -------------------------------------contact page------------------------------------- */
+.con{
+    position: relative;
+}
 .con-sec{
     display: flex;
     width: 84%;
@@ -1114,34 +1311,20 @@ span{
     margin: auto;
 }
 .con1{
-    width: 600px;
-    top: 1%;
-    opacity: 0.3;
-}
-.con2{
-    width: 16px;
-    top: 21%;
+    top: 0%;
     left: 11%;
 }
-.con3{
-    width: 18px;
+.con2{
     top: 80%;
-    left: 50%;
+    left: 47.8%;
+}
+.con3{
+    bottom: 3%;
+    right: 7%;
 }
 .con4{
-    width: 16px;
-    bottom: 0%;
-    right: 5%;
-}
-.con5{
-    width: 16px;
-    top: 17%;
+    top: 1%;
     right: 15%;
-}
-.con6{
-    bottom: -9%;
-    right: 0%;
-    opacity: 0.3;
 }
 @media (max-width: 700px) {
     .con{
@@ -1149,11 +1332,12 @@ span{
     }
     .mobile-contact{
         display: block;
+        position: relative;
     }
     .contact-content{
         margin: auto;
         width: 80%;
-        padding: 20px 0;
+        padding: 40px 0;
         line-height: 1.1rem;
     }
     .contact-content #next{
@@ -1192,11 +1376,27 @@ span{
         display: grid;
         row-gap: 0.1rem;
         text-align: center;
-        padding-block: 20px;
+        padding-block: 20px 0;
     }
     .contact-footer .svg1{
         width: 32%;
         margin: auto;
         column-gap: 0.5rem;
+    }
+    .con1{
+        top: 12%;
+        left: 11%;
+    }
+    .con2{
+        top: 78%;
+        left: 16%;
+    }
+    .con3{
+        bottom: 6%;
+        right: 7%;
+    }
+    .con4{
+        top: 28%;
+        right: 15%;
     }
 }
