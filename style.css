@@ -26,7 +26,7 @@ header{
 .b{
     background: #150e28;
     display: flex;
-    padding-block: 1.6rem;
+    padding-block: 1.2rem;
     width: 84%;
     margin: auto;
     justify-content: space-between;
@@ -500,19 +500,24 @@ p span{
     color: #D434FE;
 }
 .t1{
-    top: 2%;
+    top: 10%;
+    left: 9%;
 }
 .t2{
-    top: 5%;
+    top: 20%;
+    left: 58%;
 }
 .t3{
-    top: 10%;
+    top: 36%;
+    left: 40%;
 }
 .t4{
-    top: 15%;
+    top: 52%;
+    left: 52%;
 }
 .t5{
-    top: 20%;
+    bottom: 6%;
+    right: 16%;
 }
 @media (max-width: 700px) {
     .questions{
@@ -525,20 +530,31 @@ p span{
     .fifthsec .sec img{
         width: 100%;
     }
+    .fifthsec-col h4, .fifthsec-col p{
+        text-align: center;
+    }
+    .faq p{
+        text-align: left;
+    }
     .t1{
-        top: 2%;
+        top: 4%;
+        left: 12%;
     }
     .t2{
-        top: 5%;
+        top: 60%;
+        left: 46%;
     }
     .t3{
-        top: 10%;
+        top: 72%;
+        left: 24%;
     }
     .t4{
-        top: 15%;
+        top: 84%;
+        left: 8%;
     }
     .t5{
-        top: 20%;
+        bottom: 6%;
+        right: 16%;
     }
 }
 .sixth-sec{
@@ -639,13 +655,16 @@ span{
     display: none;
 }
 .i1{
-    top: 2%;
+    top: 20%;
+    left: 30%;
 }
 .i2{
-    top: 7%;
+    bottom: 8%;
+    left: 20%;
 }
 .i3{
-    top: 12%;
+    top: 55%;
+    left: 70%;
 }
 @media (max-width: 700px) {
     .grid-content1, .grid-content2, .grid-content3, .grid-content4, .grid-content5, .grid-content6{
@@ -727,13 +746,16 @@ span{
         gap: 0.5rem;
     }
     .i1{
-        top: 2%;
+        top: 13%;
+        left: 24%;
     }
     .i2{
-        top: 7%;
+        bottom: 8%;
+        left: 8%;
     }
     .i3{
-        top: 12%;
+        top: 48%;
+        left: 70%;
     }
 }
 .sevensec{
@@ -768,19 +790,24 @@ span{
     line-height: 0.7rem;
 }
 .s1{
-    top: 2%;
+    top: 6%;
+    left: 20%;
 }
 .s2{
-    top: 5%;
+    top: 88%;
+    left: 25%;
 }
 .s3{
-    top: 10%;
+    top: 32%;
+    left: 56%;
 }
 .s4{
-    top: 15%;
+    top: 93%;
+    left:78%;
 }
 .s5{
-    top: 20%;
+    top: 44%;
+    left: 90%;
 }
 @media (max-width: 700px) {
     .seven{
@@ -792,19 +819,24 @@ span{
         max-width: 18rem;
     }
     .s1{
-        top: 2%;
+        top: 6%;
+        left: 20%;
     }
     .s2{
-        top: 5%;
+        top: 88%;
+        left: 25%;
     }
     .s3{
-        top: 10%;
+        top: 32%;
+        left: 56%;
     }
     .s4{
-        top: 15%;
+        top: 93%;
+        left:78%;
     }
     .s5{
-        top: 20%;
+        top: 44%;
+        left: 90%;
     }
 }
 .eightsec{
@@ -832,13 +864,16 @@ span{
     width: 100%;
 }
 .e1{
-    top: 5%;
+    top: 25%;
+    left: 20%;
 }
 .e2{
-    top: 10%;
+    top: 40%;
+    left: 56%;
 }
 .e3{
-    top: 15%;
+    top: 76%;
+    left: 55%;
 }
 @media (max-width: 700px) {
     .eight-image{
@@ -846,13 +881,16 @@ span{
         width: 72%;
     }
     .e1{
-        top: 5%;
+        top: 25%;
+        left: 20%;
     }
     .e2{
-        top: 10%;
+        top: 40%;
+        left: 56%;
     }
     .e3{
-        top: 15%;
+        top: 76%;
+        left: 55%;
     }
 }
 .ninesec{
@@ -926,25 +964,32 @@ span{
     left: 18%;
 }
 .n1{
-    top: 2%;
+    top: 5%;
+    left: 30%;
 }
 .n2{
-    top: 5%;
+    top: 16%;
+    left: 50%;
 }
 .n3{
-    top: 7%;
+    top: 24%;
+    left: 80%;
 }
 .n4{
-    top: 10%;
+    top: 72%;
+    left: 5%;
 }
 .n5{
-    top: 15%;
+    top: 72%;
+    left: 61%;
 }
 .n6{
-    top: 17%;
+    top: 62%;
+    left: 67%;
 }
 .n7{
-    top: 20%;
+    top: 77%;
+    left: 87%;
 }
 @media (max-width: 700px) {
     .nine{
@@ -985,25 +1030,32 @@ span{
         font-size: 12px;
     }
     .n1{
-        top: 2%;
+        top: 5%;
+        left: 30%;
     }
     .n2{
-        top: 5%;
+        top: 16%;
+        left: 50%;
     }
     .n3{
-        top: 7%;
+        top: 24%;
+        left: 80%;
     }
     .n4{
-        top: 10%;
+        top: 72%;
+        left: 5%;
     }
     .n5{
-        top: 15%;
+        top: 72%;
+        left: 61%;
     }
     .n6{
-        top: 17%;
+        top: 62%;
+        left: 67%;
     }
     .n7{
-        top: 20%;
+        top: 77%;
+        left: 87%;
     }
 }
 .footer{
@@ -1051,19 +1103,20 @@ h2{
     padding-bottom: 20px;
 }
 .f1{
-    top: 10%;
+    top: 24%;
+    left: 6%;
 }
 .f2{
-    top: 2%;
+    top: 72%;
+    left: 46%;
 }
 .f3{
-    top: 5%;
+    top: 16%;
+    left: 68%;
 }
 .f4{
-    top: 7%;
-}
-.f5{
-    top: 15%;
+    top: 60%;
+    left: 92%;
 }
 @media (max-width: 700px) {
     .footer-content{
@@ -1075,19 +1128,20 @@ h2{
         height: 16px;
     }
     .f1{
-        top: 10%;
+        top: 24%;
+        left: 6%;
     }
     .f2{
-        top: 2%;
+        top: 72%;
+        left: 46%;
     }
     .f3{
-        top: 5%;
+        top: 16%;
+        left: 68%;
     }
     .f4{
-        top: 7%;
-    }
-    .f5{
-        top: 15%;
+        top: 60%;
+        left: 92%;
     }
 }
 /* -------------------------------------------Registration----------------------------------------------- */
@@ -1398,5 +1452,8 @@ span{
     .con4{
         top: 28%;
         right: 15%;
+    }
+    .abs{
+        width: 12px;
     }
 }
